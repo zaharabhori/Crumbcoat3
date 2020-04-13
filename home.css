@@ -1,0 +1,96 @@
+body,html{
+  width: 100%;
+  height:100%;
+  overflow-x: hidden;
+}
+
+nav.navbar{
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.navbar-brand {
+  position: absolute;
+  margin-top: -45px;
+}
+
+#menu{
+  border: 0px;
+}
+
+nav li a {
+  top: 10px;
+  font-family: 'Great vibes', cursive;
+  font-size: 36px;
+  color: #e2c555!important;
+}
+
+.landingpage{
+  position: relative;
+  height: 80%;
+  width: 100%;
+  background-image: url('images/cookie.jpg');
+  background-size:100% 100%;
+  background-color: rgba(0, 0, 0, 0.);
+}
+
+.landingpage h1{
+  margin: 0;
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  font-family: 'Dancing script', serif;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.filler{
+  position: relative;
+  height: auto;
+}
+
+.filler h1{
+
+  color: #a78d00;
+  font-family: 'Cinzel', serif;
+
+}
+
+.filler p{
+  color: black;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+
+}
+
+
+
+.aboutus{
+  position: relative;
+  top: 20px;
+  height: auto;
+}
+
+.aboutus p{
+  width: 100%;
+  background-color: #f3f3f3;
+  color: #bf9e24;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.offer{
+  position: relative;
+  top: 20px;
+  height: auto;
+}
+
+.offer h1{
+  color: #a78d00;
+  font-family: 'Cinzel', serif;
+
+}
