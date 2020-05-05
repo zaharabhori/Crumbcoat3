@@ -32,7 +32,14 @@ nav li a {
   width: 100%;
   background-image: url('images/cookie.jpg');
   background-size:100% 100%;
-  background-color: rgba(0, 0, 0, 0.);
+}
+
+.landingpage:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .landingpage h1{
@@ -86,11 +93,126 @@ nav li a {
 .offer{
   position: relative;
   top: 20px;
+  width: 100%;
   height: auto;
+  margin-top: 0px;
+  background-image: url("images/baking4.jpg");
 }
 
-.offer h1{
+.woffer{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  background-color: lavender;
+  margin-bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.woffer h1{
+  padding-top: 50px;
+  font-size: 42px;
+  color: #a78d00;
+  font-family: 'Great vibes', cursive;
+
+}
+
+.offer:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.card{
+  margin-top: 20px;
+  background-color: lavender;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h3,.customcakes h2{
   color: #a78d00;
   font-family: 'Cinzel', serif;
+}
 
+
+
+#myCarousel{
+
+  width: 100%;
+}
+
+.customcakes{
+  position: relative;
+  width: 80%;
+  margin-top: 50px;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.customcakes p{
+  width: 100%;
+  padding: 20px;
+  color: #bf9e24;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+
+@media only screen and (max-width:600px) {
+  .customcakes.row{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width:600px) {
+  .customcakes p{
+    font-size: 15px;
+  }
+}
+
+
+.footer{
+  background-image: url('images/cookie.jpg');
+  background-size:100% ;
+  position: relative;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+
+.footer p{
+  font-family: 'Great vibes', cursive;
+  font-size: 30px;
+  color: #e2c555!important;
+}
+
+.footer a{
+  padding: 0;
+  font-family: 'Great vibes', cursive;
+  font-size: 25px;
+  color: #e2c555!important;
+}
+.footerheading{
+  padding-top: 20px;
+}
+.footer:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer i{
+  color: #e2c555!important;
+  margin-left: 5px;
+  margin-right: 5px;
 }
