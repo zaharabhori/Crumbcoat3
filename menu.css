@@ -8,6 +8,7 @@ nav.navbar{
   border: 0px;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0;
+  z-index: 2;
 }
 
 .navbar-brand {
@@ -111,10 +112,22 @@ nav li a {
     background-size:600px 100%;
     padding: 40px;
   }
+  .navbar-brand{
+    margin-left: -30px;
+    margin-top: -35px;
+  }
+  .navbar-brand img{
+    width: 200px;
+    height: 140px;
+  }
+  .landingpage h3{
+    font-size: 60px;
+  }
 }
 @media only screen and (max-width:600px){
+
   .div2 h3{
-    font-size: 190%;
+    font-size: 170%;
     font-family: 'Great vibes', cursive;
     color: #b79723!important;
   }
@@ -124,6 +137,8 @@ nav li a {
       font-size: 140%;
       font-family: 'Great vibes', cursive;
       color: white!important;
+      margin-bottom: -12px;
+      margin-top: -10px;
     }
   }
 
@@ -150,6 +165,7 @@ nav li a {
       color: #a78d00!important;
 
     }
+
   }
 
 .patisserie{
@@ -220,7 +236,27 @@ nav li a {
   .decorc{
     display: none;
   }
+  .patisserie h1{
+    font-size: 45px;
+    padding-top: 30px;
+  }
 
+  .devider img{
+    margin: 10px;
+    margin-bottom: 30px;
+
+  }
+
+  .patisserie{
+    width: 200px;
+    height: 200px;
+  }
+  .choices h3{
+    font-size: 40px;
+  }
+  .choices p{
+    font-size: 20px;
+  }
 }
 
 .footer{

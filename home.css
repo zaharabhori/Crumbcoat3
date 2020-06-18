@@ -8,6 +8,7 @@ nav.navbar{
   border: 0px;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0;
+  z-index: 2;
 }
 
 .navbar-brand {
@@ -49,7 +50,7 @@ nav li a {
   color: white;
   font-size: 60px;
   font-family: 'Dancing script', serif;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -60,7 +61,7 @@ nav li a {
 }
 
 .filler h1{
-
+  font-size: 40px;
   color: #a78d00;
   font-family: 'Cinzel', serif;
 
@@ -172,12 +173,82 @@ nav li a {
     margin-right: 0px;
     width: 100%;
   }
-}
-@media only screen and (max-width:600px) {
+  .navbar-brand{
+    margin-left: -30px;
+    margin-top: -35px;
+  }
+  .navbar-brand img{
+    width: 200px;
+    height: 140px;
+  }
+  .landingpage h1{
+    font-size: 45px;
+  }
+  .filler h1{
+    font-size: 25px;
+  }
+
+  .filler p{
+    font-size: 18px;
+  }
+
+  .icons img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .aboutus p{
+    display: none;
+  }
+
+  .aboutus img{
+    width: 250px;
+    height: 220px;
+  }
+
+  .woffer{
+    width: 200px;
+    height: 200px;
+    margin-bottom: -130px;
+  }
+
+  .woffer h1{
+    font-size: 33px;
+  }
+
+  .card img{
+    height: 120px;
+  }
+
+  .card h3{
+    font-size: 20px;
+  }
+
+  .customcakes h2 {
+    font-size: 27px;
+  }
+
   .customcakes p{
     font-size: 15px;
+    margin-top: -12px;
   }
+
+  .footer p{
+    font-size: 8px;
+  }
+  .footerheading{
+    padding-top: 7px;
+  }
+  .info img{
+    width: 80%;
+  }
+  .devider img{
+    height: 20px;
+    width: 60%;
+  }
+
 }
+
 
 
 .footer{
@@ -216,4 +287,14 @@ nav li a {
   color: #e2c555!important;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+@media only screen and (max-width:600px) {
+  .footer{
+    background-image: url('images/gluten2.jpg');
+    background-size:600px 100%;
+    position: relative;
+    margin-top: 20px;
+    padding: 0px;
+  }
 }
